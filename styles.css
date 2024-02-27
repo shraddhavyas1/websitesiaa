@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Sky blue background color */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Light white header background with transparency */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    z-index: 1; /* Ensure header is above the background color */
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light white section background with transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Ensure section is above the background color */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8); /* Light white footer background with transparency */
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1; /* Ensure footer is above the background color */
+}
